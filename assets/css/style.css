@@ -3,17 +3,33 @@ footer
     background-color: #091540;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .section1
 {
     display: inherit;
     flex-direction: column;
 }
+.lien
+{
+    display: inherit;
+    justify-content: space-around;
+}
+a
+{
+    display: inline;
+}
+.lien1
+{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
 .section2
 {
     display: inherit;
     justify-content: flex-end;
+    margin: 5px 1px;
 }
 .form
 {
