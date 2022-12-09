@@ -25,7 +25,21 @@ a {
     text-decoration: none;
     color: #091540;
     font-weight: 700;
-    padding: 20px 30px;
+    padding: 10px 30px;
+}
+
+a:hover{
+    color: white;
+    background-color: #091540;
+    border-radius: 20px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.center{
+    text-align: center;
 }
 
 .title{
@@ -37,14 +51,16 @@ a {
     padding: 5px;
 }
 
+.subtitle{
+    margin: 10px 60px;
+}
+
 .services{
     display: flex;
     align-items: center;
 }
 
-.justify{
-    text-align: justify;
-}
+
 
 .text-illustration{
     width: 60%;
