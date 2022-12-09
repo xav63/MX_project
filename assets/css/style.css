@@ -2,4 +2,20 @@ footer
 {
     background-color: #091540;
     color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.section1
+{
+    display: inherit;
+    flex-direction: column;
+}
+.section2
+{
+    display: inherit;
+    justify-content: flex-end;
+}
+.form
+{
+    border-radius: 15px;
 }
